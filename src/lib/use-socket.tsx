@@ -3,9 +3,7 @@ import { useUser } from "./auth";
 
 export function useAuthenticatedSocket() {
   const user = useUser();
-  //localhost:3000
-  //192.168.68.108:3000
-  return useSocket("localhost:3000", {
+  return useSocket(import.meta.env.VITE_APP_SOCKET_URL, {
     enabled: !!user.data,
     withCredentials: true,
     forceNew: true,
