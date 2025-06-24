@@ -1,8 +1,7 @@
 import axios, { AxiosError } from "axios";
-//http://localhost:3000/api
-//http://192.168.68.108:3000/api
+
 export const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: import.meta.env.VITE_APP_API_URL,
 });
 
 api.interceptors.response.use(
