@@ -33,7 +33,7 @@ Deployed on [Render](https://render.com/).
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" height="40" alt="Tailwind CSS" />
 </a>
 <a href="https://socket.io">
-  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=Socket.io&logoColor=white" height="40" alt="Socket.IO/>
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=Socket.io&logoColor=white" height="40" alt="Socket.IO"/>
 </a>
 <a href="https://react-hook-form.com" >
   <img src="https://img.shields.io/badge/react--hook--form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" height="40" alt="React-Hook-Form" />
@@ -134,12 +134,14 @@ Have fun!
 
 ### Mobile
 
-<img src="public/images/mobile/leafchat_profile_mobile.png" width="250" />
-<img src="public/images/mobile/leafchat_chats_mobile.png" width="250" />
-<img src="public/images/mobile/leafchat_ChatConvo_mobile.png" width="326" />
-<img src="public/images/mobile/leafchat_groups_mobile.png" width="250" />
-<img src="public/images/mobile/leafchat_groupConvo_mobile.png" width="250" />
-<img src="public/images/mobile/leafchat_groupCreate_mobile.png" width="250" />
+<div style="display: flex; flex-wrap: wrap; gap: 4px; align-items: flex-start;">
+  <img src="public/images/mobile/leafchat_profile_mobile.png" width="250" />
+  <img src="public/images/mobile/leafchat_chats_mobile.png" width="250" />
+  <img src="public/images/mobile/leafchat_ChatConvo_mobile.png" width="326" />
+  <img src="public/images/mobile/leafchat_groups_mobile.png" width="250" />
+  <img src="public/images/mobile/leafchat_groupConvo_mobile.png" width="250" />
+  <img src="public/images/mobile/leafchat_groupCreate_mobile.png" width="250" />
+</div>
 
 ## Contributing:
 
